@@ -31,10 +31,14 @@
                             ?>
                                 
                             <div class="slide">
-                                <img class="d-block w-100" src="<?php echo $slide->coverImage(); ?>" alt="<?php echo $slide->title(); ?>">
-                                <p class="caption">
-                                    <?php echo $slide->title(); ?>
-                                </p>
+                                <a href="<?php echo $slide->permalink(); ?>">
+                                    <?php if(!empty($slide->coverImage())): ?>
+                                    <img class="d-block w-100" src="<?php echo $slide->coverImage(); ?>" alt="<?php echo $slide->title(); ?>">
+                                    <?php endif; ?>
+                                    <p class="caption">
+                                        <?php echo $slide->title(); ?>
+                                    </p>
+                                </a>
                             </div>
                         </div>
                         
