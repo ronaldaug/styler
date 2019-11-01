@@ -1,0 +1,28 @@
+.navbar{
+    .nav-item{
+        line-height:1em;
+        .nav-link{
+            color:#fff;
+            position:relative;
+            &:before{
+                transition:all ease 0.2s;
+                width:0;
+                height:1px;
+                background:#fff;
+                left:50%;
+                bottom:0;
+                content:'';
+                position: absolute;
+            }
+            &:hover:before{
+                width:100%;
+                left:0;
+            }      
+        }
+    }
+    .navbar-toggler{
+        &:focus{
+            outline:none;
+        }
+    }
+}

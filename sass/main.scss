@@ -1,0 +1,32 @@
+/* -----  Variables ------- */
+@import './_variables';
+
+/* -----   Mixins   ------- */
+@import './_mixins';
+
+/* ----- Global CSS ------- */
+@import './_global';
+
+/* -----   Navbar  ------- */
+@import './_navbar';
+
+/* -----   Slider  ------- */
+@import './_slider';
+
+/* -----   Articles  ------- */
+@import './_articles';
+
+/* -----  Pagination  ------ */
+@import './_pagination.scss';
+
+/* -----  Footer  ------ */
+@import './_footer.scss';
+
+/* -----  Scroll to top  ------ */
+@import './_scrollDown.scss';
+
+/* -----  Scroll to top  ------ */
+@import './_scrollTop.scss';
+
+/* -----  Animation  ------ */
+@import './_animation.scss';
