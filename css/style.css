@@ -29,7 +29,12 @@ a:focus {
 .navbar .nav-item {
   line-height: 1em; }
   .navbar .nav-item .nav-link {
-    color: #fff;
+    color: #fff; }
+.navbar .navbar-toggler:focus {
+  outline: none; }
+
+@media (min-width: 768px) {
+  .navbar .nav-item .nav-link {
     position: relative; }
     .navbar .nav-item .nav-link:before {
       transition: all ease 0.2s;
@@ -42,10 +47,7 @@ a:focus {
       position: absolute; }
     .navbar .nav-item .nav-link:hover:before {
       width: 100%;
-      left: 0; }
-.navbar .navbar-toggler:focus {
-  outline: none; }
-
+      left: 0; } }
 /* -----   Slider  ------- */
 #slider {
   height: auto;
