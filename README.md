@@ -1,14 +1,26 @@
 # Styler - A lightweight and responsive theme for Bludit CMS.
 
+# Features
+- Full-screen image slider
+- Fade In Animations (AOS)
+- SASS
+- Scroll Up/Down buttons
+- Fully responsive
+
 ## Installation
-- Place this repo in theme folder
+- Download and place in `bl-themes` folder
 
 
-## Add Slider
+## How to enable full-screen image Slider
 - Create a new category called "slider"
-- Create posts that links with "slider" category
+- Create posts that link to "slider" category
 - Slider image is equal to cover image.
 - Recommend slider image size is 1200 X 400 in pixels
+
+
+# How to change main theme colors
+- Open `sass/_variables.scss` and edit two virables `$theme-color` and `$theme-hover-color`
+- Compile SASS to `css/style.css`
 
 
  ## Screenshot

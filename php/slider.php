@@ -32,6 +32,8 @@
                                 
                             <div class="slide">
                                 <a href="<?php echo $slide->permalink(); ?>">
+
+                                    <!-- if no cover image -->
                                     <?php if(!empty($slide->coverImage())): ?>
                                     <img class="d-block w-100" src="<?php echo $slide->coverImage(); ?>" alt="<?php echo $slide->title(); ?>">
                                     <?php endif; ?>
