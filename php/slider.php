@@ -1,7 +1,7 @@
 <?php 
     if (!empty($content) && $WHERE_AM_I == 'home'):
 
-	// Filter slider content by music category
+	// Filter slider content by slider category
 	$cat = 'slider';
 	$slider = array_filter($content, function ($item) use ($cat){
 		if (stripos($item->category(), $cat) !== false) {
