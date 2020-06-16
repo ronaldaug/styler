@@ -14,7 +14,7 @@
 ## How to enable full-screen image Slider
 - Create a new category called "slider"
 - Create posts that link to "slider" category
-- Slider image is equal to cover image.
+- Slider image is post's cover image.
 - Recommend slider image size is 1200 x 400 in pixels
 
 
