@@ -40,3 +40,16 @@
             scrollTop: 0
         }, 'slow');
     });
+
+    /* -------------------------------------
+    Tiny slider config
+    ---------------------------------------- */
+    var slider = tns({
+        container: '#slider',
+        items: 1,
+        slideBy: 'page',
+        autoplayButtonOutput:false,
+        controls:false,
+        autoplay: true,
+        mouseDrag:true
+      });

@@ -57,6 +57,9 @@
 		// Animate on scroll
 		echo Theme::js('https://unpkg.com/aos@2.3.1/dist/aos.js', false);
 
+		// Tiny Slider (https://ganlanyuan.github.io/tiny-slider/)
+		echo Theme::js('https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js',false);
+
         // Main CSS
 		echo Theme::js('js/main.js');
 

@@ -12,41 +12,30 @@
 
 ?>
 
-    <div class="container-fluid mt-4">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
-                    <div class="carousel-inner">
+    <div class="container-fluid mt-4 pl-0 pr-0">
+        <div class="row m-0">
+            <div class="col-md-12 m-0 pl-0 pr-0">
+                <div id="slider">
 
                     <?php foreach($slider as $key => $slide): ?>
-                        
-                        <?php 
-                                // if the first loop, add "active" class
-                                reset($slider);
-                                if ($key === key($slider)){
-                                    echo '<div class="carousel-item active">';
-                                }else{
-                                    echo '<div class="carousel-item">';
-                                }
-                            ?>
-                                
-                            <div class="slide">
-                                <a href="<?php echo $slide->permalink(); ?>">
 
-                                    <!-- if no cover image -->
-                                    <?php if(!empty($slide->coverImage())): ?>
+                        <div class="slide">
+                            <a href="<?php echo $slide->permalink(); ?>">
+
+                                <!-- if no cover image -->
+                                <?php if(!empty($slide->coverImage())): ?>
                                     <img class="d-block w-100" src="<?php echo $slide->coverImage(); ?>" alt="<?php echo $slide->title(); ?>">
-                                    <?php endif; ?>
-                                    <p class="caption">
-                                        <?php echo $slide->title(); ?>
-                                    </p>
-                                </a>
-                            </div>
+                                <?php endif; ?>
+
+                                <p class="caption">
+                                    <?php echo $slide->title(); ?>
+                                </p>
+
+                            </a>
                         </div>
-                        
+                
                     <?php endforeach ?>
 
-                    </div>
                 </div>
             </div>
         </div>

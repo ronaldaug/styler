@@ -8,7 +8,9 @@
 - Fully responsive
 
 ## Installation
-- Download and place in `bl-themes` folder
+- [Download here](https://github.com/ronaldaug/styler/archive/master.zip)
+- Rename `styler-master` to `styler`
+- Place in `bl-themes` folder
 
 
 ## How to enable full-screen image Slider
@@ -21,6 +23,16 @@
 ## How to change main theme colors
 - Open `sass/_variables.scss` and edit two virables `$theme-color` and `$theme-hover-color`
 - Compile SASS to `css/style.css`
+
+-----
+
+## Change logs
+
+Version 1.2
+- Change default bootstrap 4 slider to tiny slider
+- Add touch,drag features for slider to have a good UX in mobile device.
+
+--- 
 
 
  ## Screenshot

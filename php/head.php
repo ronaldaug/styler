@@ -23,8 +23,11 @@
 <!-- Animate on scroll -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+<!-- Tiny Slider -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+
 <!-- Include CSS Styles from this theme -->
-<?php echo Theme::css('css/style.css'); ?>
+<?php echo Theme::css('css/style.min.css'); ?>
 
 <!-- Load Bludit Plugins: Site head -->
 <?php Theme::plugins('siteHead'); ?>
