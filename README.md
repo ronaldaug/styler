@@ -34,7 +34,7 @@ Version 1.2
 
 --- 
 
- ## <a target="_blank" href="http://staging.mipropia.com">Demo template</a>
+ ## <a target="_blank" href="http://staging.mipropia.com">Demo</a>
 
  ## Screenshot
  
