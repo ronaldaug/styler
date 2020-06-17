@@ -34,6 +34,10 @@ Version 1.2
 
 --- 
 
+ ## <a target="_blank" href="http://staging.mipropia.com">Demo template</a>
 
  ## Screenshot
-<img src="https://user-images.githubusercontent.com/33022876/84876329-19637280-b0ad-11ea-9b0e-02922082e54e.jpg">
+ 
+ <a target="_blank" href="http://staging.mipropia.com">
+    <img src="https://user-images.githubusercontent.com/33022876/84876329-19637280-b0ad-11ea-9b0e-02922082e54e.jpg">
+ </a>
