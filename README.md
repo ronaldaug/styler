@@ -53,13 +53,11 @@ npm run prod
 
 ## Change logs
 
-Version 1.2
-- Change default bootstrap 4 slider to tiny slider
-- Add touch,drag features for slider to have a good UX in mobile device.
+Version 1.3
+- Remove jquery and jquery based libraries.
+- Add laravel mix, SAL animation on scroll, GlideJS slider and Feather Icons.
 
 --- 
-
- ## <a target="_blank" href="http://staging.mipropia.com">Demo</a>
 
  ## Screenshot
  
