@@ -25,6 +25,30 @@
 - Open `sass/_variables.scss` and edit two virables `$theme-color` and `$theme-hover-color`
 - Compile SASS to `css/style.css`
 
+-------------
+## Development - Laravel Mix
+
+```sh
+npm install
+```
+
+#### watch
+```
+npm run watch
+```
+
+
+#### develop
+```
+npm run dev
+```
+
+
+#### production
+```
+npm run prod
+```
+
 -----
 
 ## Change logs
