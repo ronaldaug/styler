@@ -1,0 +1,3 @@
+@mixin boxshadow($spread){
+    box-shadow:0 1px $spread rgba($theme-color, 0.05);
+}

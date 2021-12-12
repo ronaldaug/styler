@@ -1,0 +1,46 @@
+{
+  "name": "styler",
+  "version": "1.0.0",
+  "description": "styler responsive light weight theme",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronaldaug/styler.git"
+  },
+  "keywords": [
+    "styler",
+    "responsive",
+    "light"
+  ],
+  "author": "ronaldaug",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ronaldaug/styler/issues"
+  },
+  "homepage": "https://github.com/ronaldaug/styler#readme",
+  "devDependencies": {
+    "@popperjs/core": "^2.11.0",
+    "axios": "^0.21",
+    "laravel-mix": "^6.0.6",
+    "lodash": "^4.17.19",
+    "postcss": "^8.1.14",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.45.0",
+    "sass-loader": "^12.4.0"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.5.2",
+    "bootstrap": "^5.1.3",
+    "feather-icons": "^4.28.0",
+    "sal.js": "^0.8.5"
+  }
+}

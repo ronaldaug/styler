@@ -1,0 +1,16 @@
+.scrollDown{
+    animation:fadeInDown 1s infinite;
+    position:fixed;
+    bottom:80px;
+    right:20px;
+    z-index:999;
+    text-align:center;
+    span.sroll-text{
+        color:$theme-color;
+        font-size:0.8em;
+    }
+    span.la{
+        font-size:1.2em;
+        color:$theme-color;
+    }
+}

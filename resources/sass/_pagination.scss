@@ -1,0 +1,8 @@
+.pagination .page-link{
+    transition:all ease 0.3s;
+    color:$theme-color;
+    &:hover{
+        color:#fff;
+        background-color:$theme-color;
+    }
+}

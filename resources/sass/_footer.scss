@@ -1,0 +1,40 @@
+.footer{
+    color:#fff;
+    padding:10px;
+    .social{
+        padding:0;
+        list-style:none;
+        li.nav-item{
+            a.nav-link{
+                color:#fff;
+                img.nav-svg-icon {
+                    width: 1rem;
+                    height: 1rem;
+                    padding-bottom: 2px;
+                }  
+                &:hover{
+                    color:#fff;
+                }
+            }
+        }
+    }
+    .footer-text{
+        font-size:0.7em;
+    }
+}
+
+@media (min-width:992px){
+    .footer{
+        .social{
+            li.nav-item{
+                float:left;
+            }
+        }
+    }
+}
+
+@media (max-width:768px){
+    a.nav-link{
+        padding:10px 0;
+    }
+}

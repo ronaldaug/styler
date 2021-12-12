@@ -1,0 +1,48 @@
+@import "~bootstrap/scss/bootstrap";
+
+// Required Core Stylesheet
+@import "./../../node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+// Optional Theme Stylesheet
+@import "./../../node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+// Sal On Scroll Animation
+@import './../../node_modules/sal.js/dist/sal.css';
+
+
+/* ------------------------ */
+/* STYLER THEME RELATED CSS
+/* ------------------------ */
+
+/* -----  Variables ------- */
+@import './variables';
+
+/* -----   Mixins   ------- */
+@import './mixins';
+
+/* ----- Global CSS ------- */
+@import './global';
+
+/* -----   Navbar  ------- */
+@import './navbar';
+
+/* -----   Slider  ------- */
+@import './slider';
+
+/* -----   Articles  ------- */
+@import './articles';
+
+/* -----  Pagination  ------ */
+@import './pagination.scss';
+
+/* -----  Footer  ------ */
+@import './footer.scss';
+
+/* -----  Scroll to top  ------ */
+@import './scrollDown.scss';
+
+/* -----  Scroll to top  ------ */
+@import './scrollTop.scss';
+
+/* -----  Animation  ------ */
+@import './animation.scss';
