@@ -1,16 +1,4 @@
 {
     "/assets/js/app.js": "/assets/js/app.js",
-    "/assets/css/app.css": "/assets/css/app.css",
-    "/assets/img/codepen.svg": "/assets/img/codepen.svg",
-    "/assets/img/default.jpg": "/assets/img/default.jpg",
-    "/assets/img/facebook.svg": "/assets/img/facebook.svg",
-    "/assets/img/favicon.png": "/assets/img/favicon.png",
-    "/assets/img/github.svg": "/assets/img/github.svg",
-    "/assets/img/gitlab.svg": "/assets/img/gitlab.svg",
-    "/assets/img/googleplus.svg": "/assets/img/googleplus.svg",
-    "/assets/img/instagram.svg": "/assets/img/instagram.svg",
-    "/assets/img/linkedin.svg": "/assets/img/linkedin.svg",
-    "/assets/img/mastodon.svg": "/assets/img/mastodon.svg",
-    "/assets/img/rss.svg": "/assets/img/rss.svg",
-    "/assets/img/twitter.svg": "/assets/img/twitter.svg"
+    "/assets/css/app.css": "/assets/css/app.css"
 }

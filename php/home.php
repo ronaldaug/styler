@@ -52,9 +52,9 @@
 			<!-- Breaked content -->
 			<?php echo $page->contentBreak(); ?>
 
-			<!-- "Read more" button -->
+			<!-- "Continuous Reading" button -->
 			<?php if ($page->readMore()): ?>
-			<a href="<?php echo $page->permalink(); ?>"><?php echo $L->get('Read more'); ?></a>
+			<a href="<?php echo $page->permalink(); ?>"><?php echo $L->get('Continuous Reading'); ?></a>
 			<?php endif ?>
 
 		</div>
