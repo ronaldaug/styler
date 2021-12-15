@@ -15,11 +15,7 @@
 <?php echo Theme::cssBootstrap(); ?>
 
 <!-- Google roboto font link -->
-<!-- <link href="//fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet"> -->
-
-<!-- Line Awesome font link -->
-<!-- <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/css/line-awesome.min.css"> -->
-
+<link href="//fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
 
 <!-- Include CSS Styles from this theme -->
 <?php echo Theme::css('assets/css/app.css'); ?>

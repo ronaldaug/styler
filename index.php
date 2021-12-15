@@ -1,10 +1,10 @@
-<?php // include(THEME_DIR_PHP.'debug.php'); ?>
-
 <!DOCTYPE html>
 <html lang="<?php echo Theme::lang() ?>">
+
 <head>
-<?php include(THEME_DIR_PHP.'head.php'); ?>
+	<?php include(THEME_DIR_PHP.'head.php'); ?>
 </head>
+
 <body>
 
 	<!-- Load Bludit Plugins: Site Body Begin -->
@@ -15,18 +15,12 @@
 
 	<!-- Slider -->
 	<?php include(THEME_DIR_PHP.'slider.php'); ?>
-			
+
 	<!-- Content -->
-	<div class="container my-4">
-
-		<div class="row">
-
-			<!-- Blog Posts -->
-			<div class="col-md-12">
-			<?php
-				if ($WHERE_AM_I == 'category' && $page->category()) {
-					echo '<h4><span data-feather="tag" class="me-2"></span> '. $page->category() .'</h4>';
-				}
+	<?php
+                if ($WHERE_AM_I == 'category' && $page->category()) {
+                    echo '<h4><span data-feather="tag" class="me-2"></span> '. $page->category() .'</h4>';
+                }
                 // Bludit content are pages
                 // But if you order the content by date
                 // These pages works as posts
@@ -39,11 +33,7 @@
                 } else {
                     include(THEME_DIR_PHP.'home.php');
                 }
-            ?>
-			</div>
-
-		</div>
-	</div>
+        ?>
 
 	<!-- Footer -->
 	<?php include(THEME_DIR_PHP.'footer.php'); ?>
@@ -52,13 +42,14 @@
 	<?php
 
         // App JS
-		echo Theme::js('assets/js/app.js');
+        echo Theme::js('assets/js/app.js');
 
     ?>
-	
-	
+
+
 	<!-- Load Bludit Plugins: Site Body End -->
 	<?php Theme::plugins('siteBodyEnd'); ?>
 
 </body>
+
 </html>

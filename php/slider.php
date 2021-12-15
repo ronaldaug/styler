@@ -12,7 +12,8 @@
 
 ?>
 
-<div class="mt-4">
+<?php if(!empty($slider)): ?>
+<div class="slider">
     <div id="glide" class="glide" data-sal="slide-up" data-sal-delay="400">
         <div data-glide-el="track" class="glide__track">
             <ul class="glide__slides">
@@ -40,6 +41,6 @@
         </div>
     </div>
 </div>
-
-<?php
-    endif; // end $content empty
+<?php 
+endif;
+endif; // end $content empty

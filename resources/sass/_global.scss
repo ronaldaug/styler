@@ -9,6 +9,14 @@ a{
 	text-decoration: none;
 }
 
+.theme-color{
+	color:$theme-color !important;
+}
+
+.theme-bg{
+	background:$theme-color !important;
+}
+
 a:hover{
 	color:$theme-hover-color;
 }
@@ -18,17 +26,6 @@ a:focus{
 	text-decoration: none;
 }
 
-.boxshadow-2{
-	@include boxshadow(10px);
-}
-
-.boxshadow-4{
-	@include boxshadow(20px);
-}
-
-.bg-custom{
-	background-color:$theme-color;
-}
 img {
 	max-width:100%;
 }

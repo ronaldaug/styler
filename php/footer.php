@@ -1,4 +1,4 @@
-<footer class="footer bg-custom py-4">
+<footer class="footer theme-bg mt-5 py-4">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">

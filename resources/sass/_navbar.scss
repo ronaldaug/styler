@@ -1,9 +1,15 @@
+.topbar{
+    a{
+        svg{
+            transform:scale(0.7)
+        }
+    }
+}
+
+
 .navbar{
     .nav-item{
         line-height:1em;
-        .nav-link{
-            color:#fff;
-        }
     }
     .navbar-toggler{
         &:focus{
@@ -22,7 +28,7 @@
                     transition:all ease 0.2s;
                     width:0;
                     height:1px;
-                    background:#fff;
+                    background:$theme-color;
                     left:50%;
                     bottom:0;
                     content:'';
@@ -32,6 +38,10 @@
                     width:100%;
                     left:0;
                 }      
+            }
+            .nav-link.active{
+                color:#000;
+                font-weight:bold;
             }
         }
     }

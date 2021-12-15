@@ -1,16 +1,15 @@
-.card-body{
-    .title{
-        .card-title{
+.post{
+        .post-title{
             color:$theme-color;
         }
         &:hover{
-            .card-title{
+            .post-title{
                 color:$theme-hover-color;
             }
         }
-    }
 
-    .card-subtitle{
+    .post-subtitle{
+        margin-left:-4px;
         font-size: .9rem;
         svg{
             transform:scale(0.7)
