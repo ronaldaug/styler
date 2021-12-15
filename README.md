@@ -1,6 +1,6 @@
 # Styler - A lightweight and responsive theme for Bludit CMS.
 
-## [DEMO](apicenter.epizy.com)
+## [DEMO](https://apicenter.epizy.com)
 
 ## Features
 - Bootstrap 5
