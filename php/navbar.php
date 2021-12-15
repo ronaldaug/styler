@@ -19,7 +19,7 @@
 	<div class="container">
 		<a class="navbar-brand theme-color" data-sal="slide-down" data-sal-delay="300"
 			href="<?php echo Theme::siteUrl() ?>">
-			S.<?php // echo $site->title() ?>
+			<?php echo $site->title() ?>
 		</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
