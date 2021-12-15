@@ -31,13 +31,3 @@
 		</div>
 	</div>
 </footer>
-
-
-<!-- <div class="scrollDown">
-	<span class="sroll-text">Scroll</span><br>
-	<span data-feather="arrow-down"></span>
-</div>
-
-<a href="#top" class="scrollTop">
-    <span data-feather="arrow-up"></span>
-</a> -->
