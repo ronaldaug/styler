@@ -11,9 +11,6 @@
 <!-- Include Favicon -->
 <link rel="icon" href="<?php echo DOMAIN_THEME.'assets/img/favicon.png'; ?>" type="image/png">
 
-<!-- Include Bootstrap CSS file bootstrap.css -->
-<?php echo Theme::cssBootstrap(); ?>
-
 <!-- Google roboto font link -->
 <link href="//fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
 
