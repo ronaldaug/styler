@@ -56,6 +56,11 @@ npm run prod
 
 ## Change logs
 
+Version 1.3.1
+- Remove duplicated bootstrap css in header
+
+--- 
+
 Version 1.3
 - Remove jquery and jquery based libraries.
 - Add laravel mix, SAL animation on scroll, GlideJS slider and Feather Icons.
