@@ -56,6 +56,11 @@ npm run prod
 
 ## Change logs
 
+Version 1.3.1
+- Remove duplicated bootstrap css in header
+
+--- 
+
 Version 1.3
 - Remove jquery and jquery based libraries.
 - Add laravel mix, SAL animation on scroll, GlideJS slider and Feather Icons.
@@ -64,6 +69,6 @@ Version 1.3
 
  ## Screenshot
  
- <a target="_blank" href="http://staging.mipropia.com">
+ <a target="_blank" href="http://apicenter.epizy.com">
     <img src="https://user-images.githubusercontent.com/33022876/84876329-19637280-b0ad-11ea-9b0e-02922082e54e.jpg">
  </a>
