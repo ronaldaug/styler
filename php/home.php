@@ -11,14 +11,14 @@
 		<!-- Post -->
 		<div class="col-md-4">
 
-			<div class="post shadow bg-white mb-4">
+			<div class="post shadow-sm bg-white mb-4 rounded" data-sal="slide-up">
 
 				<!-- Load Bludit Plugins: Page Begin -->
 				<?php Theme::plugins('pageBegin'); ?>
 
 				<a href="<?php echo $page->permalink(); ?>">
 
-					<div class="img-wrap">
+					<div class="img-wrap rounded overflow-hidden pb-1">
 						<!-- Cover image -->
 						<?php if ($page->coverImage()): ?>
 						<img alt="<?php echo $page->title(); ?>"
@@ -61,7 +61,6 @@
 
 		</div>
 		<?php
-        $i++;
         endforeach;
     ?>
 	</div>
